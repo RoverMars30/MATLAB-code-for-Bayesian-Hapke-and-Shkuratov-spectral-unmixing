@@ -6,10 +6,6 @@ This repository contains the MATLAB source code supporting the study:
 
 The code implements Hapke and Shkuratov radiative transfer calculations, derives the imaginary refractive index \(k(\lambda)\) from endmember reflectance spectra, and performs Bayesian retrievals of endmember abundances and effective grain sizes from laboratory mixture spectra.
 
-The archived dataset contains:
-
-- `Mixture.zip`: reflectance spectra and known mass fractions for the binary, ternary, and quaternary mixtures.
-- `Endmember_Various_Grain_Size.xlsx`: endmember reflectance spectra measured for the <43, 43–61, 61–74, and bulk <74 μm fractions.
 
 ## Repository Contents
 
