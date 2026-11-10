@@ -60,16 +60,6 @@ https://doi.org/10.1002/2016JE005248
 
 Consequently, the Bayesian batch-inversion program cannot be executed without a compatible implementation of these routines. Users must obtain permission and access to the original routines separately or supply compatible MCMC functions.
 
-## Files Not Included
-
-The following locally generated or third-party files are intentionally excluded:
-
-- `MCMC_unmixing_routines/`: third-party CATMIP routines.
-- `Independent_k_Results/`: generated \(k(\lambda)\) spectra, diagnostic figures, and intermediate calibration files.
-- `dependency_manifest.csv`: local dependency inventory.
-
-The files in `Independent_k_Results` are analysis outputs rather than source code. They can be regenerated from `Endmember_Various_Grain_Size.xlsx` using `run_independent_k_from_excel.m`.
-
 ## General Workflow
 
 1. Download the spectral dataset from Zenodo.
